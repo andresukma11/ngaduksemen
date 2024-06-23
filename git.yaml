@@ -1,0 +1,17 @@
+proxies:
+  - name: INDONET
+    server: 104.26.6.171
+    port: 443
+    type: vmess
+    uuid: 782ef297-d1b9-4778-8ef3-56095f372080
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id3.zevesh.host
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: id3.zevesh.host
+    udp: true
