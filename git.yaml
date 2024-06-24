@@ -15,3 +15,12 @@ proxies:
       headers: 
         Host: id3.zevesh.host
     udp: true
+proxies:
+  - name: JAGOANSSH SG
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: jagoanssh-condotu88
+    skip-cert-verify: true
+    sni: sg3tro.ipservers.xyz
+    udp: true
