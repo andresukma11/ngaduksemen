@@ -1,5 +1,5 @@
 proxies:
-  - name: INDONET
+  - name: INDONET PREM
     server: 104.26.6.171
     port: 443
     type: vmess
@@ -27,4 +27,20 @@ proxies:
       path: /howdy
       headers:
         Host: sg1-trojan.bonds.id
+    udp: true
+  - name: AKUNSSH SG
+    server: 104.26.6.171
+    port: 443
+    type: vmess
+    uuid: 3236e106-324b-11ef-a010-1f672faad216
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-vmess.dnsx.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-vmess.dnsx.my.id
     udp: true
