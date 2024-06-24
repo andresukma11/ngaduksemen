@@ -15,12 +15,16 @@ proxies:
       headers: 
         Host: id3.zevesh.host
     udp: true
-proxies:
-  - name: JAGOANSSH SG
+  - name: HOWDY SG1
     server: 104.26.6.171
     port: 443
     type: trojan
-    password: jagoanssh-condotu88
+    password: 52a0d760-3215-11ef-bc1a-1239d0255272
     skip-cert-verify: true
-    sni: sg3tro.ipservers.xyz
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
     udp: true
