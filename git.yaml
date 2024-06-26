@@ -44,3 +44,19 @@ proxies:
       headers:
         Host: sg1-vmess.dnsx.my.id
     udp: true
+    - name: JAGOANSSH SG
+    server: 104.26.6.171
+    port: 443
+    type: vmess
+    uuid: cf322af3-9ccc-46d9-b027-7cae46d5b9c0
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-ray.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: sg-ray.ipservers.xyz
+    udp: true
