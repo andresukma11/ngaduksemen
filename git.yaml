@@ -60,3 +60,19 @@ proxies:
       headers:
         Host: sg-ray.ipservers.xyz
     udp: true
+    - name: JAGOANSSH ID
+    server: 104.26.6.171
+    port: 80
+    type: vmess
+    uuid: 4225a53a-88b9-42fc-943c-3bd13e5827cb
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: id1-ray.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: id1-ray.ipservers.xyz
+    udp: true
