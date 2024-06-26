@@ -15,19 +15,6 @@ proxies:
       headers: 
         Host: id3.zevesh.host
     udp: true
-  - name: HOWDY SG1
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: 52a0d760-3215-11ef-bc1a-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
   - name: AKUNSSH SG
     server: 104.26.6.171
     port: 443
@@ -75,4 +62,17 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: id1-ray.ipservers.xyz
+    udp: true
+    - name: HOWDY SG
+        server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: 52a0d760-3215-11ef-bc1a-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
     udp: true
