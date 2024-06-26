@@ -1,5 +1,5 @@
 proxies:
-  - name: INDONET PREM
+  - name: INDONET
     server: 104.26.6.171
     port: 443
     type: vmess
