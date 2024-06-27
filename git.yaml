@@ -31,7 +31,7 @@ proxies:
       headers:
         Host: sg1-vmess.dnsx.my.id
     udp: true
-    - name: JAGOANSSH SG
+  - name: JAGOANSSH SG
     server: 104.26.6.171
     port: 443
     type: vmess
@@ -47,7 +47,7 @@ proxies:
       headers:
         Host: sg-ray.ipservers.xyz
     udp: true
-    - name: JAGOANSSH ID
+   - name: JAGOANSSH ID
     server: 104.26.6.171
     port: 80
     type: vmess
@@ -63,7 +63,7 @@ proxies:
       headers:
         Host: id1-ray.ipservers.xyz
     udp: true
-    - name: HOWDY SG
+  - name: HOWDY SG
         server: 104.26.6.171
     port: 443
     type: trojan
