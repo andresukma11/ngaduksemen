@@ -1,19 +1,16 @@
 proxies:
-  - name: INDONET
-    server: 104.26.6.171
+  - name: NUSANET
+    server: id-nusa.lunastore.my.id
     port: 443
-    type: vmess
-    uuid: 782ef297-d1b9-4778-8ef3-56095f372080
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 56cc6cea-48f6-11ef-affd-b7ba54d18695
     skip-cert-verify: true
-    servername: id3.zevesh.host
+    sni: 104.26.6.171
     network: ws
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: id3.zevesh.host
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: 104.26.6.171
     udp: true
     - name: AKUNSSH SG
     server: 104.26.6.171
